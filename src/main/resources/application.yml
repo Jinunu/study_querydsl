@@ -11,6 +11,7 @@ spring:
       hibernate:
 #        show_sql: true 이놈은 sout으로 찍히고
         format_sql: true
+        use_sql_comments: true # JPQL 보는 방법
 
 logging.level:
   org.hibernate.SQL: debug # 예는 로그로 찍힌다.
